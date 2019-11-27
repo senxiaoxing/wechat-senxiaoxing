@@ -1,5 +1,4 @@
 
-
 [![ 由Wechaty提供 ](https://img.shields.io/badge/Powered%20By-Wechaty-blue.svg)](https://github.com/chatie/wechaty)
 
 [![node version](https://img.shields.io/badge/node-%3E%3D10-blue.svg)](http://nodejs.cn/download/)
@@ -7,6 +6,8 @@
 ![](https://img.shields.io/badge/Window-green.svg)
 ![](https://img.shields.io/badge/Mac-yellow.svg)
 ![](https://img.shields.io/badge/Centos-blue.svg)
+
+參考Github: [wechat-assistant](https://github.com/gengchen528/wechat-assistant)
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
@@ -31,8 +32,7 @@
   - [4、如图所示问题解决办法，关闭win/mac防火墙；如果公司网络有限制的话也可能引起无法启动问题](#4%E5%A6%82%E5%9B%BE%E6%89%80%E7%A4%BA%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%E5%85%B3%E9%97%ADwinmac%E9%98%B2%E7%81%AB%E5%A2%99%E5%A6%82%E6%9E%9C%E5%85%AC%E5%8F%B8%E7%BD%91%E7%BB%9C%E6%9C%89%E9%99%90%E5%88%B6%E7%9A%84%E8%AF%9D%E4%B9%9F%E5%8F%AF%E8%83%BD%E5%BC%95%E8%B5%B7%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%E9%97%AE%E9%A2%98)
   - [5. 更多问题](#5-%E6%9B%B4%E5%A4%9A%E9%97%AE%E9%A2%98)
 - [注意](#%E6%B3%A8%E6%84%8F)
-- [体验与技术交流](#%E4%BD%93%E9%AA%8C%E4%B8%8E%E6%8A%80%E6%9C%AF%E4%BA%A4%E6%B5%81)
-  - [小助手功能一览](#%E5%B0%8F%E5%8A%A9%E6%89%8B%E5%8A%9F%E8%83%BD%E4%B8%80%E8%A7%88)
+- [小助手功能一览](#%E5%B0%8F%E5%8A%A9%E6%89%8B%E5%8A%9F%E8%83%BD%E4%B8%80%E8%A7%88)
 - [字典说明](#%E5%AD%97%E5%85%B8%E8%AF%B4%E6%98%8E)
   - [资讯字典](#%E8%B5%84%E8%AE%AF%E5%AD%97%E5%85%B8)
   - [事件字典](#%E4%BA%8B%E4%BB%B6%E5%AD%97%E5%85%B8)
@@ -43,7 +43,7 @@
 
 ## 微信小助手2.0全新升级
 
-让你闲置的微信号成为你的日常小秘书（没有闲置的也没关系，添加我的小助手微信号，给你分配一个小秘书）。
+让你闲置的微信号成为你的日常小秘书。
 
 帮你创建定时任务，每日提醒，纪念日提醒，当日提醒。当然基础的给女朋友的每日说功能也是必备的，而且小助手版每日说为那些非常优秀的程序员准备了多女朋友定时发送提醒功能。同时自带微信机器人功能，群资讯消息定时发送，群机器人聊天，垃圾分类，天气查询，土情话查询，老黄历查询，顺口溜查询等众多功能
 
@@ -257,12 +257,6 @@ yum install ipa-gothic-fonts xorg-x11-fonts-100dpi xorg-x11-fonts-75dpi xorg-x11
  本项目属于个人兴趣开发，开源出来是为了技术交流，请勿使用此项目做违反微信规定或者其他违法事情。
  
  建议使用小号进行测试，有被微信封禁网页端登录权限的风险（客户端不受影响），请确保自愿使用。
- 
- ## 体验与技术交流
- 
- 欢迎有兴趣的小伙伴可以加小助手微信进行体验，回复`“小助手”`进入微信小助手项目交流群
-
- ![](https://user-gold-cdn.xitu.io/2019/2/28/1693401c6c3e6b02?w=430&h=430&f=png&s=53609)
 
  ### 小助手功能一览
  | 功能       | 触发事件 | 触发事件案例                                        | 回复内容                                                | 说明                                                                                                                       |
@@ -286,10 +280,6 @@ yum install ipa-gothic-fonts xorg-x11-fonts-100dpi xorg-x11-fonts-75dpi xorg-x11
 | 机器人回复 | 机器人回复 | 除以上关键词外，其他文字会触发机器人自动回复 | 机器人自动回复                                       | 交流群中也可以触发                                                                                                  |
  
 更多功能正在添加中，赶快亲自试一试吧，相信你会挖掘出更多好玩的功能
-
-另外我的公众号已经接入微软小冰，关注后发语音会有小姐姐的声音陪你聊天，也可以和她文字聊天，有兴趣可以试试看，单身的欢迎来撩
-
-![](https://user-gold-cdn.xitu.io/2019/3/1/169381d277ba6401?w=258&h=258&f=png&s=42373)
 
 
 ## 字典说明
@@ -344,7 +334,3 @@ yum install ipa-gothic-fonts xorg-x11-fonts-100dpi xorg-x11-fonts-75dpi xorg-x11
 | avatar    | 我要国旗  | 设置触发的关键词     | ？                            | 返回一个带国旗的头像                 |
 | emo       | 获取表情包 | 设置触发的关键词     | ？哈哈                        | 返回哈哈的表情包                 |
 | meinv      | 获取美女图 | 设置触发的关键词     | ？                       | 返回随机美女高清图               |
-
-### 更新日志
-
-[更新日志](./CHANGELOG.md)

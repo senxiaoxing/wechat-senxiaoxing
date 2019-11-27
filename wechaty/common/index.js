@@ -26,7 +26,7 @@ async function getEveryDayContent(date, city, endWord) {
   let today = lib.formatDate(new Date()); //获取今天的日期
   let memorialDay = lib.getDay(date); //获取纪念日天数
   let sweetWord = await api.getSweetWord(); // 土味情话
-  let str = `${today}<br>我们在一起的第${memorialDay}天<br><br>元气满满的一天开始啦,要开心噢^_^<br><br>今日天气<br>${
+  let str = `${today}<br>我们结婚的第${memorialDay}天<br><br>今天也是元气满满的一天,要开心噢^_^<br><br>今日天气<br>${
     weather.weatherTips
   }<br>${
     weather.todayWeather
